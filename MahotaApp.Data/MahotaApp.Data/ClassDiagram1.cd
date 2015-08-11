@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MahotaApp.Data.Pendente" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAIAgAAAAAAIAAAAAAIAAAIBAAAAAgAAQAAAAgA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.Extracto" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.Documento" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAECoICAgACAAEABCBABggAAABACAQABAAAAg0=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.DocumentoVenda" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.DocumentoCompra" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.DocumentoContaCorrente" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.Documento_Item" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAECAAAACABCAASAQAAAAAAAAYAAAAIAAAAgAAAEAg=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.Banco" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAEAQAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.ContaBancaria" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIAAAAAAAAAQAAQAAAAIAAAAAgAAIAACAAAAAAAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.FormatoBancario" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAIAwAAAAAAAAAAgAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.LinhasFormatoBancario" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAEAAAAgAAAAAAAAAAAAAAAAAQAAAAwgAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.CabecExtractoBancario" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAIAAAAIAAAAJAAAAAACAACAAAAAAwA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.LinhasExtractoBancario" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAQAAAAIAAgAAAAAAQAQAAAAAABAHEACCAAAgA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.HistoricoExpPS2" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgECAAAAACAIACEAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.MovimentosBancos" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAQAAAAAIAAACQAAAACRAQAAgCEAAAgAgA=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.EntidadeExportacao" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAAAAABQAAAAAEAAgAAAAAAAAAAAMAAAI=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.CabecDoc" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACIQAEAoICAgACAAEABCFIJggAgABACCQABAACAA0=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MahotaApp.Data.LinhasDoc" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAECAAAACABCAASAQAAAAAAAAAAAAAIAAAAgAAAEAg=</HashCode>
+      <FileName>Logistica_Tesouraria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
