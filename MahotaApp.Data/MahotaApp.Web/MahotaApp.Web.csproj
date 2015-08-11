@@ -87,6 +87,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -136,8 +138,17 @@
     <Compile Include="Migrations\201508041952500_InitialCreate.Designer.cs">
       <DependentUpon>201508041952500_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201508111841556_First Commit Data Model For Iventory of Tooling Equipment.cs" />
+    <Compile Include="Migrations\201508111841556_First Commit Data Model For Iventory of Tooling Equipment.Designer.cs">
+      <DependentUpon>201508111841556_First Commit Data Model For Iventory of Tooling Equipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508112006102_First Commit Iventory and Sales.cs" />
+    <Compile Include="Migrations\201508112006102_First Commit Iventory and Sales.Designer.cs">
+      <DependentUpon>201508112006102_First Commit Iventory and Sales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
+    <Compile Include="Models\DataBaseDbContext.cs" />
     <Compile Include="Models\ModelFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\EmailService.cs" />
@@ -152,6 +163,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201508041952500_InitialCreate.resx">
       <DependentUpon>201508041952500_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508111841556_First Commit Data Model For Iventory of Tooling Equipment.resx">
+      <DependentUpon>201508111841556_First Commit Data Model For Iventory of Tooling Equipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508112006102_First Commit Iventory and Sales.resx">
+      <DependentUpon>201508112006102_First Commit Iventory and Sales.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
