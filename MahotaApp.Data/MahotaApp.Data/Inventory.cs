@@ -150,7 +150,13 @@ namespace MahotaApp.Data
 
         public Guid product_ID { get; set; }
 
-        public decimal product_Quantity { get; set; }
+        public double product_Quantity { get; set; }
+
+        public double product_Vat { get; set; }
+
+        public double product_Price { get; set; }
+
+        public double product_Discount { get; set; }
 
         [ForeignKey("product_ID")]
         public virtual Products product { get; set; }
@@ -172,6 +178,12 @@ namespace MahotaApp.Data
         [StringLength(250)]
         public string order_Details { get; set; }
 
+        public double order_TotalPrice { get; set; }
+
+        public double order_TotalVat { get; set; }
+
+        public double order_TotalDiscount { get; set; }
+
         [ForeignKey("customer_ID")]
         public virtual Customers customer { get; set; }
 
@@ -185,6 +197,8 @@ namespace MahotaApp.Data
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid customer_ID { get; set; }
 
+        [StringLength(150)]
+        public string customer_Name { get; set; }
         
         [StringLength(250)]
         public string customer_Details { get; set; }
@@ -192,8 +206,8 @@ namespace MahotaApp.Data
         public virtual ICollection<Orders> list_Orders { get; set; }
 
     }
-
-    
+        
     #endregion
+
 
 }

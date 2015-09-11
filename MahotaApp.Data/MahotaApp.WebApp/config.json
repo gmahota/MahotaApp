@@ -1,0 +1,11 @@
+{
+  "AppSettings": {
+    "SiteTitle": "MahotaApp.WebApp"
+  },
+  "Data": {
+    "DefaultConnection": {
+       "ConnectionString": "Server=ACCPRI12\\PRIMAVERA;Database=MahotaApp;Integrated Security=SSPI"
+      //"ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-MahotaApp.WebApp-2443654f-2aa7-4eec-bf27-261b28cfacaa;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

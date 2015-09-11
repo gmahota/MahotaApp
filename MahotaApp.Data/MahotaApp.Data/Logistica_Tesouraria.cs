@@ -477,7 +477,7 @@ namespace MahotaApp.Data
     #endregion
 
     #region Facturacao
-    public class CabecDoc
+    public class CabecalhoDocumento
     {
 
 
@@ -512,7 +512,7 @@ namespace MahotaApp.Data
 
         public decimal percentagemDescontoFinanceiro;
 
-        public List<LinhasDoc> linhasdoc = new List<LinhasDoc>();
+        public List<CabecalhoDocumento_Item> linhasdoc = new List<CabecalhoDocumento_Item>();
 
         public string documentoGerado;
 
@@ -611,7 +611,7 @@ namespace MahotaApp.Data
 
     }
 
-    public class LinhasDoc
+    public class CabecalhoDocumento_Item
     {
 
         //Prenchido com L
@@ -634,7 +634,7 @@ namespace MahotaApp.Data
 
 
         [ForeignKey("cabecDocId")]
-        public virtual CabecDoc cabecDoc { get; set; }
+        public virtual CabecalhoDocumento cabecDoc { get; set; }
 
     }
     #endregion
